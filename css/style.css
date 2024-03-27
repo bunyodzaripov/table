@@ -1,0 +1,68 @@
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border-radius: 10px;
+    margin: 30px;
+    overflow: hidden;
+    box-shadow: #64646f33 0px 7px 29px 0px;
+}
+
+th {
+    text-align: center;
+}
+
+th, td {
+    padding: 20px;
+}
+
+tr td:nth-child(2){
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    gap: 0 15px;
+}
+
+tr td:nth-child(4){
+    padding-right: 50px;
+}
+
+thead th {
+    background-color: #bcbaba5e;
+}
+
+tr:nth-child(even) {
+    background-color: #bcbaba5e;
+}
+
+.delivered span{
+    border-radius: 15px;
+    background-color: #0cc20c50;
+    color: #008000;
+    padding: 5px 20px;
+}
+
+.cancelled span {
+    border-radius: 15px;
+    padding: 5px 20px;
+    background-color: #ff000050;
+    color: #ff0000;
+}
+
+.shipped span {
+    border-radius: 15px;
+    padding: 5px 28px;
+    background-color: #00ffff41;
+    color: rgb(8, 53, 53);
+}
+
+.pending span {
+    border-radius: 15px;
+    padding: 5px 28px;
+    background-color: orange;
+    color: rgb(11, 8, 2);
+}
+
+img {
+    width: 34px;
+    height: 34px;
+}
